@@ -1,0 +1,83 @@
+
+/* Red border  */
+/* * {
+   outline: 1px solid red !important;
+} */
+
+/* * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+} */
+
+#main {
+  display: flex;
+  flex-wrap: nowrap;
+
+}
+
+.logo {
+  width: 110px;
+  text-align: left;
+  display: inline-block;
+}
+
+.heading2 {
+    width: 100%;
+    text-align: right;
+    font-family: "Raleway", sans-serif;
+    display: inline-block;
+}
+
+.feat {
+    text-align: left;
+    color: grey;
+    font-family: "Raleway", sans-serif;
+}
+
+.img2 {
+    padding-top: 11%
+}
+
+body {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  max-width: 999px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgs {
+    width: calc((100% - 20px)/3);
+    min-width: 150px;
+}
+
+.resume {
+    /*float: left;*/
+    /*text-align: center;*/
+    width: calc((100% - 20px)/3);
+
+}
+
+.photoshop {
+    /*float: right;*/
+    height: 35%;
+    width: calc((100% - 20px)/3);
+    order: 2;
+  }
+
+.projects {
+    /*display: inline-block;*/
+    width: calc((100% - 20px)/3);
+}
+
+p {
+    font-family: sans-serif;
+    color: grey;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
