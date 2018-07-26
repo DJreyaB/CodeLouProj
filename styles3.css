@@ -1,83 +1,97 @@
 
 /* Red border  */
-/* * {
+ /* *{
    outline: 1px solid red !important;
-} */
+}
 
-/* * {
+ *{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
 } */
-
-#main {
-  display: flex;
-  flex-wrap: nowrap;
-
-}
-
-.logo {
-  width: 110px;
-  text-align: left;
-  display: inline-block;
-}
-
-.heading2 {
-    width: 100%;
-    text-align: right;
-    font-family: "Raleway", sans-serif;
-    display: inline-block;
-}
-
-.feat {
-    text-align: left;
-    color: grey;
-    font-family: "Raleway", sans-serif;
-}
-
-.img2 {
-    padding-top: 11%
-}
-
+/* Media Query */
+/* Small devices */
+@media print, screen and (max-device-width: 480px) {
 body {
-  text-align: center;
-  font-family: "Raleway", sans-serif;
-  max-width: 999px;
-  margin-left: auto;
-  margin-right: auto;
+  background-color: blue;
 }
 
-.imgs {
-    width: calc((100% - 20px)/3);
-    min-width: 150px;
+    }
+/* tablets */
+@media print, screen and (min-device-width: 481px) and (max-device-width: 980px) {
+  body {
+    background-color: lightblue;
 }
+    }
+/* laptop */
+@media print, screen and (min-device-width: 981px) {
+  #main {
+    display: flex;
+    flex-wrap: wrap;
 
-.resume {
-    /*float: left;*/
-    /*text-align: center;*/
-    width: calc((100% - 20px)/3);
-
-}
-
-.photoshop {
-    /*float: right;*/
-    height: 35%;
-    width: calc((100% - 20px)/3);
-    order: 2;
   }
 
-.projects {
-    /*display: inline-block;*/
-    width: calc((100% - 20px)/3);
-}
+  h1 {
+    margin-top: 1px;
+  }
 
-p {
-    font-family: sans-serif;
-    color: grey;
-}
+  .heading2 {
 
-a {
-    text-decoration: none;
-    color: black;
-}
+  }
+
+  .feat {
+      color: grey;
+      font-family: "Raleway", sans-serif;
+  }
+
+  .img2 {
+
+  }
+
+  body {
+    background-color: red;
+    font-family: "Raleway", sans-serif;
+    max-width: 999px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .imgs {
+      width: calc((100% - 25px)/3);
+      min-width: 150px;
+      display: inline-block;
+  }
+
+  .resume {
+
+
+  }
+
+  .photoshop {
+
+    }
+
+  .projects {
+
+  }
+
+  .row{
+    padding-left: 10px;
+  }
+
+  p {
+      font-family: sans-serif;
+      color: grey;
+  }
+
+  a {
+      text-decoration: none;
+      color: black;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+    }
